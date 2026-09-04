@@ -21,7 +21,7 @@ const projects = [
     github: "https://github.com/JonesEgelle/movie-cloud-app",
   },
   {
-    title: "Ts Academy Capstone Project",
+    title: "Solar System Explorer",
     description:
       " A responsive React app exploring the solar system through real-time planetary data, built collaboratively as a TS Academy capstone project. ",
     image: "/projects/ts-academy.png",

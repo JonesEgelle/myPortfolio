@@ -64,12 +64,12 @@ export const Hero = () => {
             </div>
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
+              <h1 className="text-[47px] md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
                 Crafting <span className="text-primary glow-text">digital</span>
                 <br />
                 experiences with
                 <br />
-                <span className="font-serif italic font-normal text-white">
+                <span className="font-serif italic font-normal text-primary ">
                   precision
                 </span>
               </h1>
@@ -78,40 +78,48 @@ export const Hero = () => {
                 JavaScript, React, and Next.js. I build scalable,
                 high-performance web applications that users love.
               </p>
-              {/* CTA */}
-              <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-                <Button size="lg" href="#contacts">
-                  Contact Me <ArrowRight className="w-5 h-5" />
-                </Button>
-                <AnimatedBorderButton
-                  href="docs/Jones_Egelle_CV.pdf"
-                  target="_blank"
-                  download="Jones_Egelle_CV"
-                >
-                  <Download className="w-5 h-5" />
-                  Download CV
-                </AnimatedBorderButton>
-              </div>
-              {/* Social Links */}
-              <div className="flex items-center gap-4 animated-fade-in animation-delay-400">
-                <span className="text-sm text-muted-foreground"> Follow:</span>
-                {[
-                  { icons: FaGithub, href: "https://github.com/JonesEgelle" },
-                  {
-                    icons: FaLinkedin,
-                    href: "https://www.linkedin.com/in/jones-egelle-246421231/",
-                  },
-                  { icons: FaXTwitter, href: "https://x.com/JBlck__" },
-                ].map((social, index) => (
-                  <a
-                    key={index}
-                    href={social.href}
-                    className="rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
+              <div className="space-y-8">
+                {/* CTA */}
+                <div className="flex  gap-4 animate-fade-in animation-delay-300">
+                  <Button
+                    className=" sm:px-4 py-2 text-sm md:px-8 py-4 tex-lg"
+                    href="#contacts"
                   >
+                    Contact Me <ArrowRight className="w-5 h-5" />
+                  </Button>
+                  <AnimatedBorderButton
+                    href="docs/Jones_Egelle_CV.pdf"
+                    target="_blank"
+                    download="Jones_Egelle_CV"
+                  >
+                    <Download className="w-5 h-5" />
+                    Download CV
+                  </AnimatedBorderButton>
+                </div>
+                {/* Social Links */}
+                <div className="flex items-center justify-center md:justify-start gap-4 animate-fade-in animation-delay-400">
+                  <span className="text-sm text-muted-foreground">
                     {" "}
-                    {<social.icons className="w-5 h-5" />}{" "}
-                  </a>
-                ))}
+                    Follow:
+                  </span>
+                  {[
+                    { icons: FaGithub, href: "https://github.com/JonesEgelle" },
+                    {
+                      icons: FaLinkedin,
+                      href: "https://www.linkedin.com/in/jones-egelle-246421231/",
+                    },
+                    { icons: FaXTwitter, href: "https://x.com/JBlck__" },
+                  ].map((social, index) => (
+                    <a
+                      key={index}
+                      href={social.href}
+                      className="rounded-full glass p-1 hover:bg-primary/10 hover:text-primary transition-all duration-300"
+                    >
+                      {" "}
+                      {<social.icons className="w-5 h-5" />}{" "}
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -122,7 +130,7 @@ export const Hero = () => {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse" />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="profile/Jones.png"
+                  src="profile/Jones3.PNG"
                   alt="Jones Egelle"
                   className="w-full aspect-4/5 object-cover rounded-2xl "
                 />
