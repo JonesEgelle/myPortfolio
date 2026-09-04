@@ -6,7 +6,7 @@ const navLinks = [
   { href: "#projects", label: "Projects" },
   { href: "#experiences", label: "Experiences" },
   { href: "#testimonials", label: "Testimonials" },
-  { href: "#contacts", label: "Contacts" },
+  { href: "#contactMe", label: "Contacts" },
 ];
 
 export const NavBar = () => {
@@ -75,7 +75,11 @@ export const NavBar = () => {
                 {link.label}
               </a>
             ))}
-            <Button onClick={() => setIsMenuOpen(false)} size="default">
+            <Button
+              onClick={() => setIsMenuOpen(false)}
+              href="#contacts"
+              size="default"
+            >
               Contact Me
             </Button>
           </div>

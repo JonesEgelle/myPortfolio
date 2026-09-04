@@ -108,7 +108,10 @@ export const Contacts = () => {
           </p>
         </div>
         <div className=" grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          <div className="p-8 glass rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
+          <div
+            id="contacts"
+            className=" p-8 glass rounded-3xl border border-primary/30 animate-fade-in animation-delay-300"
+          >
             <form action="submit" className="space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label
@@ -199,7 +202,10 @@ export const Contacts = () => {
             </form>
           </div>
 
-          <div className="space-y-6 animate-fade-in animation-delay-400">
+          <div
+            id="contactMe"
+            className="space-y-6 animate-fade-in animation-delay-400"
+          >
             <div className="glass rounded-3xl p-8 ">
               <h3 className="text-xl font-semibold mb-6"></h3>
 
