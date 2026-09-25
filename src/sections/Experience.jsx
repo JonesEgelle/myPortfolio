@@ -9,9 +9,9 @@ const experiences = [
     current: true,
   },
   {
-    period: "Feb 2024 - Aug 2025",
-    role: "Freelance Developer",
-    company: "Self Employed",
+    period: "Feb 2024 - Present",
+    role: "Frontend Developer",
+    company: "Neolartech LTD",
     description:
       "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
     technologies: [
@@ -26,7 +26,7 @@ const experiences = [
   },
   {
     period: "May 2023 - Feb 2024",
-    role: "Frontend Engineer",
+    role: "Frontend Developer",
     company: "Lithium Finance",
     description:
       "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
