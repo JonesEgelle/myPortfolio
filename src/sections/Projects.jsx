@@ -9,7 +9,7 @@ const projects = [
     image: "/projects/project1.png",
     tags: ["React", "Typescript", "NodeJS"],
     link: "#",
-    github: "#",
+    github: "https://github.com/JonesEgelle",
   },
   {
     title: "Movie Discovery Platform",
@@ -36,7 +36,7 @@ const projects = [
     image: "/projects/project4.png",
     tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
     link: "#",
-    github: "#",
+    github: "https://github.com/JonesEgelle",
   },
 ];
 
