@@ -17,12 +17,12 @@ export const Button = ({
   const classes = `${baseClasses} ${sizes[size]} ${className}`;
 
   return (
-    <button
+    <a
       href={href}
       className={`${classes} inline-flex items-center justify-center gap-2 whitespace-nowrap`}
       {...props}
     >
       {children}
-    </button>
+    </a>
   );
 };
