@@ -74,7 +74,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Jones Egelle - a Frontend Engineer specializing in
+                Hi, I'm Jones Egelle a Frontend Engineer specializing in
                 JavaScript, React, and Next.js. I build scalable,
                 high-performance web applications that users love.
               </p>
