@@ -141,7 +141,7 @@ export const Contacts = () => {
                 </label>
                 <input
                   id="email"
-                  type="text"
+                  type="email"
                   placeholder="your@email.com."
                   value={formData.email}
                   onChange={(e) =>
