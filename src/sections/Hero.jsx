@@ -152,7 +152,7 @@ export const Hero = () => {
               <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-200">
                 <div className="text-2xl text-center font-bold text-primary">
                   {" "}
-                  2+{" "}
+                  3+{" "}
                 </div>
                 <div className="text-xs text-muted-foreground">Years Exp.</div>
               </div>
